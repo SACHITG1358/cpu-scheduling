@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    position: relative;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,0.7142506660867471) 99%); */
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    /* color: ; */
+    /* text-decoration: underline; */
+    /* margin-top: 1.5rem; */
+    font-family: 'Poppins', sans-serif;
+}
+#algorithm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableinput{
+    margin-left: 5vw;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+fresh th {
+    background: linear-gradient(WhiteSmoke, lightgray);
+    text-align: left;
+    border: 1px solid black;
+    height: 400 px;
+}
+fresh td {
+    border: 1px solid black;
+    border-bottom: 0;
+    /*border-right: 0;*/
+    height: 20px;
+    text-align: left;
+}
+
+div th, div td {
+    border: 1px solid black;
+    text-align: center;
+}
+#inputTable {
+    /* display: inline;
+    border-collapse: collapse; */
+    width: 90vw;
+    margin-left: 5vw;
+}
+.tablerow{
+    background-color: rgba(0, 212, 255, 0.4);
+}
+.tablehead{
+    background-color: #00d4ff;
+}
+tr{
+    height: 35px;
+
+}
+/* #quantumParagraph{
+    padding: 10px;
+    height: ;
+} */
+
+.quantumP{
+    font-size: 1.5rem;
+    background-color: rgb(209, 32, 32);
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 0, 0);
+}
+#quantum{
+    border: 1px solid rgb(186, 184, 184);
+}
+table{
+    margin-left: 5vw;
+}
+.tablebutton{
+    margin-top: 2rem;
+    width: 90vw;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+}
+input {
+    text-align: center;
+}
+#curtain {
+  background-color: white;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,246,229,1) 0%, rgba(253,255,255,0.8739145316329657) 100%); */
+  /* margin-left: 1w; */
+} 
+  .clockContainer{
+      position: absolute;
+    /* top:0; left:0; bottom:0; right:0; margin: auto; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin-right: 1rem;
+  }
+  
+  .clockOut{
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0;
+    margin-left: auto; margin-right: auto; left:0; right:0;
+  }
+  
+  .clockTop{
+    border-top: 2px solid black;
+     border-right: 2px solid black;
+     border-left: 2px solid black;
+    width: 20px;
+    /* top: 11px; */
+    position: absolute;
+    margin-left: auto; margin-right: auto; left:0; right:0;
+    height: 10px;
+    border-radius: 3px;
+  }
+  
+  .clockNeedle{
+    width: 15px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 2.5px;
+    transform-origin:100% 50%;
+    -webkit-transform-origin:100% 50%;
+    -webkit-animation: needleAnimation 3s linear 0s infinite; 
+    animation: needleAnimation 3s linear 0s infinite;
+  }
+  
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes needleAnimation {
+      from {
+          
+      }
+      to {
+          -webkit-transform:rotate(360deg); 
+      }
+  }
+  
+  /* Standard syntax */
+  @keyframes needleAnimation {
+     from {
+          
+      }
+      to {
+          -ms-transform:rotate(360deg); 
+          -moz-transform:rotate(360deg); 
+          -webkit-transform:rotate(360deg); 
+      }
+  }
+
+  .time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col{
+    background-image: linear-gradient(rgb(213, 243, 250), white);
+  }
+
+  .namecon{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* position: absolute;
+    bottom: -10; */
+    /* margin-top: 40vh; */
+  }
